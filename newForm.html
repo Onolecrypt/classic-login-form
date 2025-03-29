@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form validation</title>
+  <link rel="stylesheet" href="styles/vms-forms1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!--<div>
+    <fieldset>
+  <legend class="gst-js gst-css"></legend>
+  <div>
+      <div class="clock-group">
+        <div class="day-js"></div>
+        <div class="month-js"></div>
+        <div class="det-js"></div>
+        <div class="year-js"></div>
+        <div class="tym-js"></div>
+        </div>
+    </fieldset>
+   
+    
+      </div>-->
+  <form class="form-css formCreate" action="form-output.html" method="get">
+   <div   class="title">
+    <h2>Lucid VMS</h2>
+   </div>
+  
+   <div class="input-group">
+    <label for="Name" class="nameLeb">NAME</label><br />
+    <input type="text" name="Name" id="Name" class="name-input" placeholder="name">
+    <i class="fa-solid fa-circle-check"></i>
+    <i class="fa-solid fa-circle-exclamation"></i>
+    <p>Error Message</p>
+   </div>
+   <div class="input-group">
+    <label for="Email" class="emailLeb">EMAIL</label><br />
+    <input type="email" name="email" id="email" class="email-input" placeholder="example@gmail.com">
+    <i class="fa-solid fa-circle-check"></i>
+    <i class="fa-solid fa-circle-exclamation"></i>
+      <p>Error Message</p>
+   </div>
+   <div class="input-group">
+    <label for="Password" class="passLeb">PASSWORD</label><br />
+    <input type="password" name="Password" id="Password" class="password-input" placeholder="password...">
+    <i class="fa-solid fa-circle-check"></i>
+    <i class="fa-solid fa-circle-exclamation"></i>
+      <p>Error Message</p>
+   </div>
+   <div class="input-group">
+    <label for="repeatPass" class="pass-repLeb">CONFIRM PASSWORD</label><br />
+    <input type="password" name="repeatPass" id="repeatPass" class="rep-password" placeholder="password...">
+    <i class="fa-solid fa-circle-check"></i>
+    <i class="fa-solid fa-circle-exclamation"></i>
+    <p>Error Message</p>
+   </div>
+   
+    <button type="submit" class="sub-btn">Submit</button>
+  
+  </form>
+<script src="scripts/forms.js"></script>
+</body>
+</html>

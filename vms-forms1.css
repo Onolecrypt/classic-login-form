@@ -1,0 +1,96 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #170312bc;
+  font-family: monospace;
+}
+.form-css{
+
+  width: 400px;
+  padding: 20px;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+}
+
+.title{
+
+  margin-bottom: 20px;
+}
+
+.input-group{
+
+  margin: 20px 0px;
+  position: relative;
+}
+
+.input-group label{
+display: inline-block;
+margin-bottom: 5px;
+}
+
+.input-group input{
+
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: antiquewhite;
+  border: 1px solid #170312bc;
+}
+
+.success input{
+border: 1px #170312bc;
+}
+
+.error input{
+  border: 1px red solid;
+}
+
+
+.success i.fa-circle-check{
+  visibility: visible;
+  color: #170312bc;
+}
+
+.error i.fa-circle-exclamation{
+  visibility: visible;
+}
+
+.input-group i{
+  color: red;
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  visibility: hidden;
+}
+
+.input-group p{
+  font-size: 15px;
+  color: red;
+  visibility: hidden;
+}
+
+
+.error p {
+  visibility: visible;
+}
+
+.sub-btn{
+
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #170312bc;
+  color: antiquewhite;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
